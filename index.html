@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmhouse Cinema</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="cinema.css">
+    <link rel="stylesheet" href="cinema_media.css">
+</head>
+<body>
+    <div class="top">
+        <nav>
+            <div class="logo">
+                <img src="SVG/play-button-svgrepo-com 2.svg" alt="logo" class="logo_img">
+                <h2>film<strong>house</strong></h2>
+            </div>
+            <div class="nav_two">
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Get Tickets</a></li>
+                        <li><a href="#">
+                            <img src="SVG/star-svgrepo-com 1.svg" alt="" class="star">
+                            Subscribe Now
+                        </a></li>
+                        <li><a href="#">Food & Drinks</a></li>
+                        <li><a href="#">Bookings</a></li>
+                    </ul>
+                </div>
+                <div class="options">
+                    <div >
+                        <a href="#" class="sign_in">
+                            <img src="SVG/user-avatar-profile-svgrepo-com 1.svg" alt="" class="avatar">
+                            <p>Sign In</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="cart">
+                            <img src="SVG/shopping-cart-svgrepo-com 1.svg" alt="" class="shopping_cart">
+                            <p>Cart</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="slider">
+        <div class="slider_info">
+            <div class="slider_info_info">
+                <h4 class="slider_title">UNDER WATER</h4>
+                <p class="slider_genre">THRILLER, ACTION, DRAMA</p>
+                <p class="slider_desc">
+                    A noir thriller set in Miami, the film follows an enforcer who discovers his femme fatale boss has branched out into cyber sex trafficking, putting a young runaway he's befriended .
+                </p>
+                <div class="banner_button slider_contact">
+                    <button class="banner_contact slider_conact_">
+                        <a href="#"> BUY TICKET </a></button>
+                </div>
+                <div class="slider_watch">
+                    <a href="#" class="slider_button">
+                        <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                        <div class="container">
+                            <div class="circle_one circle"></div>
+                            <div class="circle_two circle"></div>
+                            <div class="circle_two circle"></div>
+                            <div class="circle_three circle"></div>
+                            <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                        </div>
+                        <p>WATCH TRAILER
+                            YOU CAN GET THIS MOVIE FOR FREE CLICK HERE!!!
+                            TS & CS APPLY</p>
+                    </a>
+                    <p class="new_button">WATCH TRAILER</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="currently_showing">
+        <div class="currently_showing_heading">
+            <img src="SVG/ticket-svgrepo-com 1.svg" alt="" class="ticket">
+            <h3>Currently Showing</h3>
+        </div>
+        <form action="#">
+            <label for="loctation">CHOOSE WHERE YOU WANT TO WATCH FROM</label>
+            <div class="inputs">
+                <select name="state" id="state">
+                    <option value="oyo" >Oyo</option>
+                    <option value="edo">Edo</option>
+                    <option value="lagos" selected>LAGOS</option>
+                    <option value="rivers">Rivers</option>
+                    <option value="ondo">Ondo</option>
+                    <option value="kano">Kano</option>
+                </select>
+                <select name="town" id="town">
+                    <option value="landmark">Landmark</option>
+                    <option value="oniru">Oniru</option>
+                    <option value="circle_mall">CircleMall</option>
+                    <option value="surulere">Surulere</option>
+                    <option value="lekki"selected>LEKKI</option>
+                </select>
+                <select name="day" id="day">
+                    <option value="today"selected>TODAY</option>
+                    <option value="oct_wed_05">Oct, Wed 5</option>
+                    <option value="oct_thu_06">Oct, Thu 6</option>
+                    <option value="oct_fri_07">Oct, Fri 7</option>
+                    <option value="oct_sat_08">Oct, Sat 8</option>
+                    <option value="oct_sun_09">Oct, Sun 9</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <div class="movies">
+        <div class="movie">
+            <div class="picture">
+                <img src="Images/chinese_animation.jpg" alt="" class="movie_img">
+                <a href="#" class="watch_trailer">
+                    <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                    <div class="container movie_container">
+                        <div class="circle_one circle movie_circle"></div>
+                        <div class="circle_two circle"></div>
+                        <div class="circle_two circle movie_circle_two"></div>
+                        <div class="circle_three circle movie_circle_three"></div>
+                        <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                    </div>
+                    <p class="trailer_p">WATCH TRAILER</p>
+                </a>
+            </div>
+            <div class="movie_desc">
+                <div class="title">
+                    <div class="name">
+                        <h3>THE LEGEND OF CHOI SUN</h3>
+                    </div>
+                    <div class="rating">
+                        <p>PG</p>
+                    </div>
+                </div>
+                <div class="genre">
+                    ADVENTURE,ANIMATION,COMEDY
+                </div>
+                <div class="desc">
+                    <p>Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering...</p>
+                </div>
+                <div class="showtime">
+                    <button class="show_time">
+                        <p>12:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="picture">
+                <img src="Images/Our_city.jpg" alt="" class="movie_img">
+                <a href="#" class="watch_trailer">
+                    <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                    <div class="container movie_container">
+                        <div class="circle_one circle movie_circle"></div>
+                        <div class="circle_two circle"></div>
+                        <div class="circle_two circle movie_circle_two"></div>
+                        <div class="circle_three circle movie_circle_three"></div>
+                        <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                    </div>
+                    <p class="trailer_p">WATCH TRAILER</p>
+                </a>
+            </div>
+            <div class="movie_desc">
+                <div class="title">
+                    <div class="name">
+                        <h3>OUR CITY</h3>
+                    </div>
+                    <div class="rating">
+                        <p>PG</p>
+                    </div>
+                </div>
+                <div class="genre">
+                    ADVENTURE,ANIMATION,COMEDY
+                </div>
+                <div class="desc">
+                    <p>Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering...</p>
+                </div>
+                <div class="showtime">
+                    <button class="show_time">
+                        <p>12:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                    <button class="show_time">
+                        <p>3:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                    <button class="show_time">
+                        <p>5:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="picture">
+                <img src="Images/water.jpg" alt="" class="movie_img">
+                <a href="#" class="watch_trailer">
+                    <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                    <div class="container movie_container">
+                        <div class="circle_one circle movie_circle"></div>
+                        <div class="circle_two circle"></div>
+                        <div class="circle_two circle movie_circle_two"></div>
+                        <div class="circle_three circle movie_circle_three"></div>
+                        <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                    </div>
+                    <p class="trailer_p">WATCH TRAILER</p>
+                </a>
+            </div>
+            <div class="movie_desc">
+                <div class="title">
+                    <div class="name">
+                        <h3>Blah blah</h3>
+                    </div>
+                    <div class="rating">
+                        <p>PG</p>
+                    </div>
+                </div>
+                <div class="genre">
+                    ADVENTURE,ANIMATION,COMEDY
+                </div>
+                <div class="desc">
+                    <p>Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering...</p>
+                </div>
+                <div class="showtime">
+                    <button class="show_time">
+                        <p>12:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="picture">
+                <img src="Images/chinese_animation.jpg" alt="" class="movie_img">
+                <a href="#" class="watch_trailer">
+                    <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                    <div class="container movie_container">
+                        <div class="circle_one circle movie_circle"></div>
+                        <div class="circle_two circle"></div>
+                        <div class="circle_two circle movie_circle_two"></div>
+                        <div class="circle_three circle movie_circle_three"></div>
+                        <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                    </div>
+                    <p class="trailer_p">WATCH TRAILER</p>
+                </a>
+            </div>
+            <div class="movie_desc">
+                <div class="title">
+                    <div class="name">
+                        <h3>Blah blah</h3>
+                    </div>
+                    <div class="rating">
+                        <p>PG</p>
+                    </div>
+                </div>
+                <div class="genre">
+                    ADVENTURE,ANIMATION,COMEDY
+                </div>
+                <div class="desc">
+                    <p>Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering...</p>
+                </div>
+                <div class="showtime">
+                    <button class="show_time">
+                        <p>12:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="picture">
+                <img src="Images/chinese_animation.jpg" alt="" class="movie_img">
+                <a href="#" class="watch_trailer">
+                    <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                    <div class="container movie_container">
+                        <div class="circle_one circle movie_circle"></div>
+                        <div class="circle_two circle"></div>
+                        <div class="circle_two circle movie_circle_two"></div>
+                        <div class="circle_three circle movie_circle_three"></div>
+                        <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                    </div>
+                    <p class="trailer_p">WATCH TRAILER</p>
+                </a>
+            </div>
+            <div class="movie_desc">
+                <div class="title">
+                    <div class="name">
+                        <h3>Blah blah</h3>
+                    </div>
+                    <div class="rating">
+                        <p>PG</p>
+                    </div>
+                </div>
+                <div class="genre">
+                    ADVENTURE,ANIMATION,COMEDY
+                </div>
+                <div class="desc">
+                    <p>Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering...</p>
+                </div>
+                <div class="showtime">
+                    <button class="show_time">
+                        <p>12:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="picture">
+                <img src="Images/chinese_animation.jpg" alt="" class="movie_img">
+                <a href="#" class="watch_trailer">
+                    <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                    <div class="container movie_container">
+                        <div class="circle_one circle movie_circle"></div>
+                        <div class="circle_two circle"></div>
+                        <div class="circle_two circle movie_circle_two"></div>
+                        <div class="circle_three circle movie_circle_three"></div>
+                        <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                    </div>
+                    <p class="trailer_p">WATCH TRAILER</p>
+                </a>
+            </div>
+            <div class="movie_desc">
+                <div class="title">
+                    <div class="name">
+                        <h3>Blah blah</h3>
+                    </div>
+                    <div class="rating">
+                        <p>PG</p>
+                    </div>
+                </div>
+                <div class="genre">
+                    ADVENTURE,ANIMATION,COMEDY
+                </div>
+                <div class="desc">
+                    <p>Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering...</p>
+                </div>
+                <div class="showtime">
+                    <button class="show_time">
+                        <p>12:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                    <button class="show_time">
+                        <p>02:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                    <button class="show_time">
+                        <p>04:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                    <button class="show_time">
+                        <p>07:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                    <button class="show_time">
+                        <p>10:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                    <button class="show_time">
+                        <p>11:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="picture">
+                <img src="Images/chinese_animation.jpg" alt="" class="movie_img">
+                <a href="#" class="watch_trailer">
+                    <!-- <img src="SVG/play-button.svg" alt="" class="play_trailer"> -->
+                    <div class="container movie_container">
+                        <div class="circle_one circle movie_circle"></div>
+                        <div class="circle_two circle"></div>
+                        <div class="circle_two circle movie_circle_two"></div>
+                        <div class="circle_three circle movie_circle_three"></div>
+                        <img src="SVG/play-button.svg" alt="" class="buttonn play_trailer">
+                    </div>
+                    <p class="trailer_p">WATCH TRAILER</p>
+                </a>
+            </div>
+            <div class="movie_desc">
+                <div class="title">
+                    <div class="name">
+                        <h3>Blah blah</h3>
+                    </div>
+                    <div class="rating">
+                        <p>PG</p>
+                    </div>
+                </div>
+                <div class="genre">
+                    ADVENTURE,ANIMATION,COMEDY
+                </div>
+                <div class="desc">
+                    <p>Tad would love for his archeologist colleagues to accept him as one of their own, but he always messes everything up. Tad accidentally destroys a sarcophagus and unleashes an ancient spell endangering...</p>
+                </div>
+                <div class="showtime">
+                    <button class="show_time">
+                        <p>12:00 pm</p><p class="blue">Premium 2D</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="watch_more">
+        <div class="watch_more_title">
+            <img src="SVG/Group 1.svg" alt="" class="double_play">
+            <h3>WATCH MORE FOR LESS</h3>
+        </div>
+        <div class="watch_more_body">
+            <div class="text">
+                <div class="logo">
+                    <img src="SVG/play-button-svgrepo-com 2.svg" alt="logo" class="logo_img">
+                    <h2><strong>film</strong>house</h2>
+                </div>
+                <div class="text_body">
+                    <p>Join our <em> Club </em> and enjoy free UNLIMITED tickets, up to 15% off food items, exclusive access to events</p>
+                </div>
+                <a href="#" class="gradient">
+                    <button class="get_started">GET STARTED</button>
+                </a>
+            </div>
+            <div class="watch_imgs">
+                <img src="images/Our_city.jpg" alt="" class="watch_more_img_one">
+                <img src="images/water.jpg" alt="" class="watch_more_img_two">
+            </div>
+        </div>
+    </div>
+    <div class="promotions">
+
+    </div>
+    <div class="coming_soon">
+
+    </div>
+    <div class="banner">
+        <div class="banner_content">
+            <div class="banner_text">
+                <div class="banner_text_text">
+                    <h3>Bookings & Reservations Only</h3>
+                    <p>Have a private experience with your friends, family or even colleagues. Rent out one of our spaces for your birthdays, events and premieres</p>
+                </div>
+            </div>
+            <div class="banner_button">
+                <button class="banner_contact banner_contactt">
+                    <a href="#"> CONTACT US NOW </a></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerdivs">
+            <div class="logo bottom_logo">
+                <img src="SVG/play-button-svgrepo-com 2.svg" alt="logo" class="logo_img">
+                <h2><strong>film</strong>house</h2>
+            </div>
+            <div class="company">
+                <div class="company_content">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Cinemas</a></li>
+                        <li><a href="#">Ticket Prices</a></li>
+                        <li><a href="#">Experiences</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="terms">
+                <h4>TERMS</h4>
+                <ul>
+                    <li><a href="#">General</a></li>
+                    <li><a href="#">Ticket Sales & Online Booking</a></li>
+                    <li><a href="#">Filmhouse+</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li><a href="#">Self Help</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Advertise With Us</a></li>
+                    <h4>LEGAL</h4>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="stream">
+                <div class="download_app">
+                    <h4>DOWNLOAD OUR APP</h4>
+                    <div class="download">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="watch_on">
+                    <h4>WATCH FILMHOUSE ON</h4>
+                    <div class="watch_devices">
+                        <a href="#">
+                            <img src="SVG/tv-svgrepo-com 1.svg" alt="" class="tv">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/laptop-svgrepo-com 1.svg" alt="" class="laptop">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/tablet-svgrepo-com 1.svg" alt="" class="tablet">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/mobile-phone-of-rounded-corners-svgrepo-com 1.svg" alt="" class="phone">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/cast-svgrepo-com 1.svg" alt="" class="cast" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="socials_payment">
+                <div class="socials">
+                    <h4>FOLLOW US ON</h4>
+                    <div class="social_images">
+                        <a href="#">
+                            <img src="SVG/facebook-svgrepo-com 1.svg" alt="" class="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/twitter-social-media-svgrepo-com 1.svg" alt="" class="twitter">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/instagram-social-media-network-communication-interaction-connection-svgrepo-com 1.svg" alt="" class="instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="payment">
+                    <h4>PAYMENT METHOD</h4>
+                    <div class="payment_images">
+                        <a href="#">
+                            <img src="SVG/paypal.svg" alt="" class="paypal">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/visa-svgrepo-com 1.svg" alt="" class="visa">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/mastercard-svgrepo-com 1.svg" alt="" class="mastercard">
+                        </a>
+                        <a href="#">
+                            <img src="SVG/klarna.svg" alt="" class="klarna">
+                        </a>
+                        <!-- <img src="SVG/american-express-svgrepo-com 1.svg." alt="" class="amex"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>filmhouse copyright &copy; 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

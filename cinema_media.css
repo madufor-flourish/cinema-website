@@ -1,0 +1,576 @@
+@media (min-width:768px) and (max-width:1279px) {
+    .slider .container{
+        display: none;
+    }
+    .top{
+        display: unset;
+        height: 0px;
+        width: 0px;
+    }
+    nav{
+        display: unset;
+        height: 0px;
+        width: 0px;
+    }
+    .nav_two{
+        display: none;
+        height: 70%;
+        width: 100%;
+        position: fixed;
+        z-index: 3;
+        background-color:#0A0A0D ;
+        /* background-color: darkcyan; */
+        margin-top: 60px;
+    }
+    .links ul{
+        display: block;
+        height: 50%;
+        /* display: none; */
+    }
+    .links ul li, .options a{
+        padding: 20px 20px;
+        width: 100%;
+        border-bottom: 1px dotted gainsboro;
+    }
+    .options a{
+        width: 100%;
+        width: 100%;
+        border-bottom: 1px dotted gainsboro;
+    }
+    .options{
+        display: block;
+        width: unset;
+        /* display: none; */
+    }
+    .links{
+        width: unset;
+    }
+    .options div{
+        width: 100%;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        height: unset;
+        background-color: #08080B;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        padding-right: 40px;
+        z-index: 2;
+    }
+    .logo_img{
+        width: 20px;
+    }
+    .slider{
+        height: 70vh;
+        max-height: 450px;
+        margin-top: 60px;
+        padding: 20px;
+        display: flex;
+        max-width: 900px;
+    }
+    .slider_button p{
+        display: none;
+    }
+    .new_button{
+        background-color: red;
+        background-color: white;
+        color: black;
+        padding: 15px 25px;
+        border-radius: 30px;
+        border: none;
+        transition-duration: 2s;
+        font-weight: bold;
+        width: fit-content;
+        font-size: 20px;
+    }
+    .banner_contact a{
+        font-weight: unset;
+        /* font-size: 12px; */
+    }
+    .slider_button img{
+        display: none;
+    }
+    .slider_info{
+        position: unset;
+        top: unset;
+    }
+    .slider_info_info{
+        width: unset;
+        line-height: unset;
+    }
+    .slider_desc{
+        width: unset;
+        display: none;
+    }
+    .slider_info_info h4{
+        font-size: 40px;
+        letter-spacing: 12px;
+    }
+    .slider_watch{
+        display: flex;
+        display: block;
+        align-items: center;
+        margin-left: -10px;
+        /* margin-top: 50px; */
+    }
+    .slider_button img{
+        width: 20px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    .slider_genre{
+        font-size: 15px;
+    }
+    form{
+        max-width: 900px;
+    }
+    .currently_showing{
+        width: 95%;
+        max-width: 1300px;
+        margin: auto;
+        max-width: 900px;
+    }
+    .currently_showing_heading{
+        display: flex;
+        color: white;
+        margin-top: 120px;
+        gap: 5px;
+        align-content: center;
+        letter-spacing: 0.5rem;
+    }
+    .currently_showing_heading h3{
+        font-size: 25px;
+        font-weight: 100;
+        font-family: 'Bebas Neue';
+    }
+    .ticket{
+        width: 30px;
+    }
+    .movies{
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+    .movie{
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 50px;
+        display: block;
+    }
+    .movie_img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .picture{
+        width: 100%;
+        height: unset;
+    }
+    .watch_trailer{
+        top: 200px;
+        justify-content: unset;
+        gap: 15px;
+        padding: 10px 10px;
+    }
+    .movie_desc{
+        padding-top: 20px;
+    }
+    .desc{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .desc p{
+        margin-bottom: 20px;
+    }
+    .play_trailer{
+        width: 15px;
+    }
+    .genre{
+        width: 100%;
+        font-size: 14px;
+        margin: 20px 0;
+    }
+    .watch_more{
+        width: 95%;
+        max-width: 900px;
+        margin-bottom: unset;
+    }
+    .watch_more_title{
+        font-size: 12px;
+        letter-spacing: 5px;
+        padding: 5px 5px 5px 10px;
+        gap: 10px;
+    }
+    .watch_more_body{
+        display: block;
+    }
+    .watch_imgs{
+        display: none;
+    }
+    .text{
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px 20px;
+    }
+    .text_body{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .get_started{
+        padding: unset;
+    }
+    .gradient{
+        height: 35px;
+        width:30%;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .banner{
+        display: block;
+        width: 95%;
+        max-width: 900px;
+        margin: auto;
+        padding: 30px 15px;
+        margin-top: 50px ;
+    }
+    .banner_content{
+        display: block;
+    }
+    .banner_contactt{
+        padding: 10px 5px;
+        width: 30%;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .banner_text{
+        width: 100%;
+        line-height: 2.0;
+    }
+    .banner_button{
+        padding: 0;
+        width: 100%;
+        display: flex;
+    }
+    .banner_text_text{
+        width: 100%;
+    }
+    .banner_text h3{
+        font-size: 25px;
+    }
+    footer{
+        position: relative;
+    }
+    .footerdivs{
+        display: block;
+        width: 95%;
+        max-width: 900px;
+    }
+    .bottom_logo{
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .company, .terms, .contact, .stream, .socials, .payment{
+        border-bottom: 1px solid gainsboro;
+        padding: 20px 15px 20px 15px;
+    }
+    .social_images{
+        width: 150px;
+    }
+    .watch_devices{
+        width: 250px;
+    }
+    .payment_images{
+        width: 200px;
+    }
+    .company_content{
+        margin-top: 70px;
+    }
+}
+@media (max-width:767px) {
+    .top{
+        display: unset;
+        height: 0px;
+        width: 0px;
+    }
+    nav{
+        display: unset;
+        height: 0px;
+        width: 0px;
+    }
+    .nav_two{
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 3;
+        background-color:#0A0A0D ;
+        margin-top: 60px;
+    }
+    .links ul{
+        display: block;
+        height: unset;
+    }
+    .links ul li, .options a{
+        padding: 30px 20px;
+        width: 100%;
+        border-bottom: 1px dotted gainsboro;
+    }
+    .options a{
+        width: 100%;
+        width: 100%;
+        border-bottom: 1px dotted gainsboro;
+    }
+    .options{
+        display: block;
+        width: unset;
+    }
+    .links{
+        width: unset;
+    }
+    .options div{
+        width: 100%;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        height: unset;
+        background-color: #08080B;
+        width: 100%;
+        padding: 20px;
+        font-size: 15px;
+        padding-right: 40px;
+        z-index: 2;
+    }
+    .logo_img{
+        width: 20px;
+    }
+    body{
+        position: relative;
+    }
+    .slider{
+        height: 50vh;
+        max-height: 450px;
+        margin-top: 60px;
+        padding: 20px;
+        display: flex;
+    }
+    .slider_button{
+        display: unset;
+        width: unset;
+    }
+    .slider_button p{
+        display: none;
+    }
+    .banner_contact{
+        padding: 10px;
+    }
+    .banner_contact a{
+        font-weight: unset;
+        font-size: 12px;
+    }
+    .slider_info{
+        position: unset;
+        top: unset;
+    }
+    .slider_info_info{
+        width: unset;
+        line-height: unset;
+    }
+    .slider_desc{
+        width: unset;
+        display: none;
+    }
+    .slider_info_info h4{
+        font-size: 20px;
+    }
+    .slider_watch p{
+        margin: unset;
+    }
+    .slider_watch{
+        display: flex;
+        align-items: center;
+        margin-left: -30px;
+    }
+    .slider_button img{
+        width: 10px;
+    }
+    .slider_genre{
+        font-size: 12px;
+    }
+    .currently_showing{
+        width: 100%;
+    }
+    .currently_showing_heading{
+        letter-spacing: unset;
+        margin-top: 50px;
+        padding: 0px 20px;
+    }
+    .currently_showing_heading h3{
+        font-size: unset;
+    }
+    .ticket{
+        width: 15px;
+    }
+    form{
+        padding: 20px 20px;
+        font-size: 12px;
+        letter-spacing: unset;
+        width: 100%;
+    }
+    label{
+        margin: 10px 0;
+    }
+    .inputs{
+        display: unset;
+    }
+    select{
+        height: 35px;
+        width: 100%;
+        margin: 15px 0;
+    }
+    .movies{
+        width: 100%;
+        display: unset;
+        margin-top: 10px;
+    }
+    .movie{
+        width: 100%;
+        margin-bottom: 50px;
+        display: block;
+    }
+    .movie_img{
+        height: 250px;
+        object-fit: cover;
+    }
+    .picture{
+        width: 100%;
+        height: unset;
+    }
+    .watch_trailer{
+        top: 200px;
+        justify-content: unset;
+        gap: 15px;
+        padding: 10px 10px;
+    }
+    .movie_desc{
+        padding-top: 20px;
+    }
+    .desc{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .desc p{
+        margin-bottom: 20px;
+    }
+    .play_trailer{
+        width: 15px;
+    }
+    .genre{
+        width: 100%;
+        font-size: 14px;
+        margin: 20px 0;
+    }
+    .watch_more{
+        width: 100%;
+        margin-bottom: unset;
+    }
+    .watch_more_title{
+        font-size: 12px;
+        letter-spacing: 5px;
+        padding: 5px 5px 5px 10px;
+        gap: 10px;
+    }
+    .watch_more_body{
+        display: block;
+    }
+    .watch_imgs{
+        display: none;
+    }
+    .text{
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px 20px;
+    }
+    .text_body{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .get_started{
+        padding: unset;
+    }
+    .gradient{
+        height: 35px;
+        width:70%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .banner{
+        display: block;
+        padding: 30px 15px;
+        margin: 20px 0 0 0 ;
+    }
+    .banner_content{
+        display: block;
+    }
+    .banner_contactt{
+        padding: 10px 5px;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .banner_text{
+        width: 100%;
+        line-height: 2.0;
+    }
+    .banner_button{
+        padding: 0;
+        width: 100%;
+        display: flex;
+    }
+    .banner_text_text{
+        width: 100%;
+    }
+    .banner_text h3{
+        font-size: 16px;
+    }
+    footer{
+        position: relative;
+    }
+    .footerdivs{
+        display: block;
+        width: 100%;
+    }
+    .bottom_logo{
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .company, .terms, .contact, .stream, .socials, .payment{
+        border-bottom: 1px solid gainsboro;
+        padding: 20px 15px 20px 15px;
+    }
+    .social_images{
+        width: 50%;
+        max-width: 150px;
+    }
+    .watch_devices{
+        width: 100%;
+        max-width: 250px;
+    }
+    .payment_images{
+        width: 90%;
+        max-width: 200px;
+    }
+    .company_content{
+        margin-top: 70px;
+    }
+}
